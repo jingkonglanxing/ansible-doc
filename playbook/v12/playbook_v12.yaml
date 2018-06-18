@@ -1,0 +1,5 @@
+---
+- hosts: 51reboot
+  tasks:
+    - debug:
+        msg: "{{ ansible_version }}"

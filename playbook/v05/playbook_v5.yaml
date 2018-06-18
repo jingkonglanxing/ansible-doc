@@ -1,0 +1,9 @@
+---
+- hosts: 51reboot
+  tasks:
+    - import_role:
+        name: common
+    - include_role:
+        name: webservers
+    - include_role:
+        name: databases

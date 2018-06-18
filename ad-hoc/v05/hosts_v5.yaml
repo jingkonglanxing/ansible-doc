@@ -1,0 +1,11 @@
+---
+all:
+  hosts:
+    localhost:
+  children:
+      webserver:
+          hosts:
+            51reboot:
+      test:
+        children:
+          webserver:

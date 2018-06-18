@@ -1,0 +1,5 @@
+---
+- hosts: 51reboot
+  gather_facts: False
+  roles:
+    - { role: webservers}

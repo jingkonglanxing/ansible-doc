@@ -1,0 +1,5 @@
+---
+- hosts: 51reboot
+  roles:
+    - common
+    - webservers

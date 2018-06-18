@@ -1,0 +1,4 @@
+---
+- hosts: 51reboot
+  roles:
+    - { role: webservers}
